@@ -119,6 +119,14 @@ li > a {
 	padding: 1rem;
 
 	border-radius: 6px;
+
+	transition: color 0.25s;
+	transition: background-color 0.25s;
+}
+
+li > a:hover {
+	color: var(--color-grey-900);
+	background-color: var(--color-green);
 }
 
 /*** Attribution ***/

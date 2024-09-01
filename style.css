@@ -37,9 +37,11 @@ main {
 
 	border-radius: 10px;
 
-	padding: 3rem;
-
 	background-color: var(--color-grey-800);
+
+	width: 100%;
+	max-width: 320px;
+	padding-inline: 3.4rem;
 }
 
 h1,
@@ -56,6 +58,8 @@ p {
 img.avatar {
 	border-radius: 100%;
 	max-width: 100px;
+
+	margin-top: 3rem;
 }
 
 h1.name {
@@ -68,7 +72,7 @@ h1.name {
 div.location {
 	font-size: 1rem;
 	color: var(--color-green);
-	font-weight: 600;
+	font-weight: 700;
 
 	margin-top: 0.6rem;
 	margin-bottom: 2rem;
@@ -82,12 +86,13 @@ div.summary {
 ul {
 	display: flex;
 	flex-direction: column;
-	gap: 3rem;
+	gap: 1.4rem;
 
 	list-style-type: none;
 
 	padding: 0;
 	margin-top: 2rem;
+	margin-bottom: 3.2rem;
 
 	width: 100%;
 }
@@ -99,12 +104,21 @@ li {
 
 li > a {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	color: var(--color-white);
 	background-color: var(--color-grey-700);
 
 	text-decoration: none;
+	font-weight: 700;
+
 	width: 100%;
+	min-height: 24px;
+
 	padding: 1rem;
+
+	border-radius: 6px;
 }
 
 /*** Attribution ***/
